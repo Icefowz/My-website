@@ -1,0 +1,222 @@
+/*********************************/
+/*BELOW 1100px (desktops)  */
+/*********************************/
+@media (max-width: 68.75em) {
+  .about-me-section {
+    margin: 12rem 4.2rem 0;
+  }
+  .service-plan {
+    text-align: left;
+  }
+}
+
+/*********************************/
+/*BELOW 944px (Landscapes Tablets)  */
+/*********************************/
+@media (max-width: 59em) {
+  .logo {
+    width: 180px;
+  }
+  .hero-section {
+    padding: 0rem 0 6.6rem 0;
+  }
+  .hero {
+    grid-template-columns: 1fr 363px;
+  }
+  .hero-text-box {
+    padding: 2.8rem;
+  }
+  .title {
+    font-size: 4.4rem;
+    margin-bottom: 2.2rem;
+  }
+  .title-p {
+    font-size: 1.6rem;
+    margin-bottom: 3.8rem;
+  }
+  .service-s {
+    padding: 3.6rem 0 5.6rem 0;
+  }
+  .grid-container {
+    gap: 8.6rem;
+  }
+  .service-box1 {
+    padding: 3.2rem 2.4rem 3.8rem 2.4rem;
+  }
+  .box-title1 {
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+  }
+  .benefit1 {
+    font-size: 1.2rem;
+  }
+  .skill-frame {
+    padding: 5rem;
+  }
+  .skill-list {
+    font-size: 1.6rem;
+  }
+  .contact-box {
+    padding: 4.8rem 4.8rem 6.4rem 4.8rem;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/*********************************/
+/*BELOW 767px (smaller Tablets)  */
+/*********************************/
+
+@media (max-width: 48em) {
+  .logo {
+    width: 150px;
+  }
+
+  .hero-section {
+    padding: 4.2rem 0 6.6rem 0;
+  }
+  .hero {
+    grid-template-columns: 1fr 325px;
+  }
+  .title {
+    font-size: 4.2rem;
+  }
+  .title-p {
+    font-size: 1.4rem;
+  }
+  .title-s {
+    font-size: 4rem;
+  }
+  .about-me-p {
+    font-size: 1.4rem;
+  }
+  .grid-container {
+    gap: 4.6rem;
+  }
+  .service-box1 {
+    padding: 2rem 2rem 3.8rem 2rem;
+  }
+  .box-title1 {
+    font-size: 1.2rem;
+  }
+  .box-benefits1 {
+    gap: 3rem;
+  }
+  .skill-list {
+    font-size: 1.3rem;
+  }
+  .footer-wrap {
+    padding: 4.4rem 1rem;
+  }
+}
+
+/*********************************/
+/*BELOW 544px (Phones)  */
+/*********************************/
+
+@media (max-width: 34em) {
+  .main-header {
+    padding: 0 2.8rem;
+  }
+  .service {
+    font-size: 1.4rem;
+  }
+  .contact {
+    font-size: 1.4rem;
+  }
+  .nav-ul {
+    gap: 2rem;
+  }
+  .logo {
+    width: 100px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .title {
+    margin-bottom: 4.2rem;
+  }
+  .title-p {
+    margin-bottom: 2.8rem;
+  }
+  .about-me-section {
+    margin: 8rem 4.2rem 0;
+  }
+  .about-me {
+    margin-bottom: 4rem;
+  }
+  .about-me-p {
+    width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container {
+    padding: 0 5.2rem;
+    gap: 8.6rem;
+  }
+  .box-title1 {
+    font-size: 2rem;
+  }
+  .benefit1 {
+    font-size: 1.6rem;
+  }
+  .skill-frame {
+    padding: 4rem;
+  }
+  .skills {
+    padding: 4.8rem 2rem 4.8rem 2rem;
+  }
+  .skill-list {
+    gap: 2rem 2rem;
+  }
+  .contact-box {
+    padding: 4.8rem 4.8rem 4.8rem 4.8rem;
+  }
+  .contact-wrap {
+    padding: 4.8rem 2rem 9.6rem 2rem;
+  }
+  .contact-form {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .contact-p {
+    font-size: 1.4rem;
+  }
+
+  .contact-email a {
+    font-size: 1.4rem;
+  }
+  .subject,
+  .content,
+  .btn-contact {
+    grid-column: unset;
+  }
+  input,
+  textarea {
+    font-size: 1.4rem;
+  }
+  .logo-footer {
+    width: 120px;
+  }
+  .footer-wrap {
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    justify-items: center;
+    text-align: center;
+    padding: 3.4rem 2rem;
+  }
+  .copyright {
+    grid-row: 3/4;
+  }
+  .social-media {
+    gap: 3rem;
+  }
+}
